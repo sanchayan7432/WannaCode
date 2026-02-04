@@ -12,7 +12,7 @@ from langdetect import detect
 import os
 
 # Set API Key
-genai.configure(api_key="...")
+genai.configure(api_key="AIzaSyBNrhKxFMPY6VUU4w8IVy-553stzEYcDwU")
 
 # Streamlit page configuration
 st.set_page_config(page_title="WANNACODE", layout="wide")
@@ -145,3 +145,4 @@ elif st.session_state.page == "compiler":
     code_compiler()
 elif st.session_state.page == "generator":
     code_generator()
+
