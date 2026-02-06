@@ -1,4 +1,5 @@
-streamlit==1.45.1
-google-generativeai==0.8.5
-langdetect==1.0.9
-pillow==11.2.1
+streamlit
+google-generativeai
+langdetect
+pillow
+
