@@ -28,7 +28,7 @@ if "editable_code" not in st.session_state:
 # Gemini model configuration
 def get_code_model():
     return genai.GenerativeModel(
-        model_name="models/gemini-1.5-flash-001",
+        model_name="models/gemini-1.0-pro-001",
         system_instruction="""
         You are a strict, role-based AI code assistant. Your behavior is governed by these rules:
         1. Perform code generation and compilation only as requested.
@@ -145,6 +145,7 @@ elif st.session_state.page == "compiler":
     code_compiler()
 elif st.session_state.page == "generator":
     code_generator()
+
 
 
 
